@@ -10,8 +10,8 @@ int main() {
 	std::vector<double> arr(n);
 
 	//Введите элементы массива
-	for (int i = 0; i < n; i++) {
-		std::cin >> arr[i];
+	for (int l = 0; l < n; l++) {
+		std::cin >> arr[l];
 	}
 
 	// Вывод исходного массива
