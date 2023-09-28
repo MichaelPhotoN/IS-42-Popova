@@ -86,7 +86,6 @@ public:
             }
             else {
                 break;
-                //result.setValue(i, 0);
             }
         }
         return result;
@@ -95,20 +94,17 @@ public:
 
 int main() {
     int lower, upper;
-    //std::cout << "Enter lower and upper bounds of the array: ";
     std::cin >> lower >> upper;
 
     Array array1(lower, upper);
     Array array2(lower, upper);
 
-    //std::cout << "Enter array elements for Array1: ";
     for (int i = lower; i <= upper; ++i) {
         int value;
         std::cin >> value;
         array1.setValue(i, value);
     }
 
-    //std::cout << "Enter array elements for Array2: ";
     for (int i = lower; i <= upper; ++i) {
         int value;
         std::cin >> value;
@@ -116,7 +112,6 @@ int main() {
     }
 
     int constant;
-    //std::cout << "Enter a constant: ";
     std::cin >> constant;
 
     std::cout << "Array1= ";
@@ -158,7 +153,6 @@ int main() {
 
     while (true) {
         int action, index;
-        // std::cout << "Enter action and index (0 to exit): ";
         std::cin >> action;
 
         if (action == 0) {
